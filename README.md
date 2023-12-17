@@ -10,7 +10,7 @@ Propositions may contain boolean variables, the constants true and false, and th
 
 ## Usage
 This library is not on `pip`, so it must be installed simply by downloading the `propositonalcalc` folder into your project. No other dependencies are required.
-Once installed, you can use it as such.
+The following example shows how to use the library once installed.
 
 ```python
 import propositionalcalc as pc
