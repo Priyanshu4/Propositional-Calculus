@@ -1,7 +1,7 @@
 import unittest
-from truthtable import TruthTable
-from proposition import Variable
-from logicalconnective import Negation, Conjunction, Disjunction, Conditional, Biconditional
+from ..truthtable import TruthTable
+from ..proposition import Variable
+from ..logicalconnective import Negation, Conjunction, Disjunction, Conditional, Biconditional
 
 class TestTruthTable(unittest.TestCase):
     

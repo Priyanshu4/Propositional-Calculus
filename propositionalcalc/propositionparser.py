@@ -1,5 +1,5 @@
-from proposition import Proposition, Variable, Constant
-from logicalconnective import Negation, Conjunction, Disjunction, Conditional, Biconditional
+from .proposition import Proposition, Variable, Constant
+from .logicalconnective import Negation, Conjunction, Disjunction, Conditional, Biconditional
 from enum import Enum
 
 class Symbol():

@@ -1,7 +1,7 @@
 import unittest
-from propositionparser import parse_proposition
-from proposition import Variable, Constant
-from logicalconnective import Negation, Conjunction, Disjunction, Conditional, Biconditional
+from ..propositionparser import parse_proposition
+from ..proposition import Variable, Constant
+from ..logicalconnective import Negation, Conjunction, Disjunction, Conditional, Biconditional
 
 class TestParser(unittest.TestCase):
     

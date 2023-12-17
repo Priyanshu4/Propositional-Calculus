@@ -1,6 +1,6 @@
 import unittest
-from argument import Argument
-from propositionparser import parse_proposition as parse
+from ..argument import Argument
+from ..propositionparser import parse_proposition as parse
 
 class TestArgument(unittest.TestCase):
 

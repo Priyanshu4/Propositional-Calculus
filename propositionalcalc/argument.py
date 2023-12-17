@@ -1,4 +1,4 @@
-from truthtable import TruthTable
+from .truthtable import TruthTable
 
 class Argument():
     """ A class representing an argument with multiple propositions as premises and one conclusion.

@@ -1,6 +1,6 @@
 import unittest
-from proposition import Variable, Constant
-from logicalconnective import Negation, Conjunction, Disjunction, Conditional, Biconditional
+from ..proposition import Variable, Constant
+from ..logicalconnective import Negation, Conjunction, Disjunction, Conditional, Biconditional
 
 class TestProposition(unittest.TestCase):
 

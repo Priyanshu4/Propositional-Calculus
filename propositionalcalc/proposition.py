@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from truthtable import TruthTable
+from .truthtable import TruthTable
 
 class Proposition(ABC):
     """

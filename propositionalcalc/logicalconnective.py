@@ -1,4 +1,4 @@
-from proposition import Proposition
+from .proposition import Proposition
 
 class Negation(Proposition):
         
